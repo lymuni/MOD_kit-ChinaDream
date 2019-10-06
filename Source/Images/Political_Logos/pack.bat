@@ -1,0 +1,1 @@
+..\..\libresxl *.PNG Political_Logos.RES 

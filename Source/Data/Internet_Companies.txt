@@ -1,0 +1,360 @@
+[Define]
+Type=Search Engine
+//Example: google.com 
+
+Revenue model=Advertising
+
+Userbase potential=100
+// The maximum size of the userbase for this type of web site, as a percentage of the total Internet users. 
+
+Average click-through rate=1.9%
+// The average click-through rate of ads. The revenue that this type of web site can generate is affected by <userbase potential> and <average click-through rate>.
+
+[Overall Quality]
+//The percentage that each factor contributes to the overall quality of the web site.
+Tech=80
+Features=20 
+
+[Tech]
+//Breakdown of the technologies that contribute to the overall quality of the web site.
+SEARCH_C=70
+SEARCH_I=30
+
+[Domains]
+FindZoom.com            
+Koogle.com                   
+CoolSearch.com
+InstSearch.com
+Loogle.com 
+Gahoo.com 
+
+//------------------------------------------------------//
+
+[Define]
+Type=Social Network 
+//Example: facebook.com 
+
+Revenue model=Advertising
+
+Userbase potential=100
+// The maximum size of the userbase for this type of web site, as a percentage of the total Internet users. 
+
+Average click-through rate=1.5%
+// The average click-through rate of ads. The revenue that this type of web site can generate is affected by <userbase potential> and <average click-through rate>.
+
+[Overall Quality]
+//The percentage that each factor contributes to the overall quality of the web site.
+Tech=60
+Features=40 
+
+[Tech]
+//Breakdown of the technologies that contribute to the overall quality of the web site.
+SOCIAL_EN=40
+SOCIAL_UI=30
+INST_MSG=30
+
+[Domains]
+Handbook.com                   
+Armbook.com 
+Headbook.com
+Facenote.com
+BuddyNet.com
+FriendStory.com
+
+
+//------------------------------------------------------//
+
+[Define]
+Type=E-commerce
+//Example: amazon.com 
+
+Revenue model=E-Commerce
+
+Userbase potential=100
+// The maximum size of the userbase for this type of web site, as a percentage of the total Internet users. 
+
+[Overall Quality]
+//The percentage that each factor contributes to the overall quality of the web site.
+Tech=60
+Features=40 
+
+[Tech]
+//Breakdown of the technologies that contribute to the overall quality of the web site.
+ECOM_CORE=60
+ECOM_UI=40
+
+
+[Domains]
+Mamazon.com 
+BuyStuff.com                   
+AmazingStore.com 
+GreatBuy.com 
+Zomazon.com
+DiscountBuy.com
+
+//------------------------------------------------------//
+
+[Define]
+Type=Video-sharing Website 
+//Example: youtube.com 
+
+Revenue model=Advertising 
+
+Userbase potential=100
+// The maximum size of the userbase for this type of web site, as a percentage of the total Internet users. 
+
+Average click-through rate=1%
+// The average click-through rate of ads. The revenue that this type of web site can generate is affected by <userbase potential> and <average click-through rate>.
+
+[Overall Quality]
+//The percentage that each factor contributes to the overall quality of the web site.
+Tech=70
+Features=30 
+
+[Tech]
+//Breakdown of the technologies that contribute to the overall quality of the web site.
+VID_STORE=60
+VID_STREAM=40
+
+[Domains]
+CloudTube.com
+yTube.com
+Viu4You.com
+MyCine.com
+FlickShow.com
+VideoFans.com
+
+//------------------------------------------------------//
+
+[Define]
+Type=Photo-sharing Website 
+//Example: instagram.com 
+
+Revenue model=Advertising 
+
+Userbase potential=70
+// The maximum size of the userbase for this type of web site, as a percentage of the total Internet users. 
+
+Average click-through rate=1.2%
+// The average click-through rate of ads. The revenue that this type of web site can generate is affected by <userbase potential> and <average click-through rate>.
+
+[Overall Quality]
+//The percentage that each factor contributes to the overall quality of the web site.
+Tech=90
+Features=10 
+
+[Tech]
+//Breakdown of the technologies that contribute to the overall quality of the web site.
+PHO_STORE=60
+PHO_ENHAN=40
+
+[Domains]
+InstantPic.com                   
+PhotoMe.com 
+SharePhoto.com 
+StarPic.com
+PicFlash.com
+
+//------------------------------------------------------//
+
+[Define]
+Type=Microblogging
+//Example: twitter.com 
+
+Revenue model=Advertising 
+
+Userbase potential=60
+// The maximum size of the userbase for this type of web site, as a percentage of the total Internet users. 
+
+Average click-through rate=0.5%
+// The average click-through rate of ads. The revenue that this type of web site can generate is affected by <userbase potential> and <average click-through rate>.
+
+
+[Overall Quality]
+//The percentage that each factor contributes to the overall quality of the web site.
+Tech=60
+Features=40 
+
+[Tech]
+//Breakdown of the technologies that contribute to the overall quality of the web site.
+MICROBLOG=100
+
+[Domains]
+Tweeter.com                   
+TweetUs.com 
+HearMe.com
+ShortMsg.com
+SendTweet.com
+
+//------------------------------------------------------//
+
+[Define]
+Type=News Website 
+//Example: nytimes.com 
+
+Revenue model=Subscription 
+
+Userbase potential=50
+// The maximum size of the userbase for this type of web site, as a percentage of the total Internet users. 
+
+
+[Overall Quality]
+//The percentage that each factor contributes to the overall quality of the web site.
+Tech=30
+Content=70 
+
+[Tech]
+//Breakdown of the technologies that contribute to the overall quality of the web site.
+NEWSENG=100
+
+[Domains]
+NewsCentral.com                   
+NewsPost.com 
+GNN.com 
+GlobeTimes.com
+NewsExpress.com
+
+//------------------------------------------------------//
+
+[Define]
+Type=Online Auction Site 
+//Example: ebay.com 
+
+Revenue model=Service Fees
+
+Userbase potential=70
+// The maximum size of the userbase for this type of web site, as a percentage of the total Internet users. 
+
+
+[Overall Quality]
+//The percentage that each factor contributes to the overall quality of the web site.
+Tech=70
+Features=30 
+
+[Tech]
+//Breakdown of the technologies that contribute to the overall quality of the web site.
+AUCT_CORE=60
+AUCT_UI=40
+
+[Domains]
+bidsmart.com
+luxeBay.com
+highBid.com
+BestDeals.com
+1GoodDeal.com
+
+//------------------------------------------------------//
+
+[Define]
+Type=Online Stock Trading 
+//Example: etrade.com
+
+Revenue model=Service Fees
+
+Userbase potential=30
+// The maximum size of the userbase for this type of web site, as a percentage of the total Internet users. 
+
+[Overall Quality]
+//The percentage that each factor contributes to the overall quality of the web site.
+Tech=50
+Features=50 
+
+[Tech]
+//Breakdown of the technologies that contribute to the overall quality of the web site.
+STK_TRADE=70
+STK_ANALY=30
+
+[Domains]
+stockTrade.com 
+tradeSpot.com
+markeTrade.com
+TradeGreat.com
+BuySellStocks.com
+
+//------------------------------------------------------//
+
+[Define]
+Type=Hotel Booking Site 
+//Example: booking.com 
+
+Revenue model=Service Fees
+
+Userbase potential=50
+// The maximum size of the userbase for this type of web site, as a percentage of the total Internet users. 
+
+[Overall Quality]
+//The percentage that each factor contributes to the overall quality of the web site.
+Tech=50
+Features=50 
+
+[Tech]
+//Breakdown of the technologies that contribute to the overall quality of the web site.
+HOTEL_S=50
+HOTEL_B=50
+
+[Domains]
+discountRoom.com
+findHotels.com
+bookLodge.com
+BigTripRentals.com
+BookALodge.com
+
+//------------------------------------------------------//
+
+[Define]
+Type=Car Rental Booking Site 
+//Example: rentalcars.com 
+
+Revenue model=Service Fees
+
+Userbase potential=30
+// The maximum size of the userbase for this type of web site, as a percentage of the total Internet users. 
+
+
+[Overall Quality]
+//The percentage that each factor contributes to the overall quality of the web site.
+Tech=50
+Features=50 
+
+[Tech]
+//Breakdown of the technologies that contribute to the overall quality of the web site.
+CAR_S=50
+CAR_B=50
+
+[Domains]
+RentCarNow.com
+BudgetCar.com
+AutoLease.com
+CarEasy.com
+BargainCarHire.om
+
+
+//------------------------------------------------------//
+
+[Define]
+Type=Video On Demand 
+//Example: NetFlix 
+
+Revenue model=Subscription
+
+Userbase potential=80
+// The maximum size of the userbase for this type of web site, as a percentage of the total Internet users. 
+
+
+[Overall Quality]
+//The percentage that each factor contributes to the overall quality of the web site.
+Tech=30
+Content=70 
+
+[Tech]
+//Breakdown of the technologies that contribute to the overall quality of the web site.
+VID_STORE=40
+VID_STREAM=60
+
+[Domains]
+NetMovie.com 
+NetSix.com
+ePrimeVideo.com 
+reel4net.com
+streaMeTV.com
+

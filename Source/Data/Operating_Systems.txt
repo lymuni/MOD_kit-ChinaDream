@@ -1,0 +1,29 @@
+//----- linkages from Software Mega Class to Operating System Software Type ------//
+//
+// [SOFTWARE] - is the mega class code 
+// OS_PC - is the Software Type code 
+//
+[SOFTWARE]
+OS_PC
+
+//----- linkages from Operating System Software Type to Hardware Product Type ------//
+
+// When developing the OS, the player can set the OS to run on only type of hardware among the following list, or several of them in the list.
+// [<OS software code>]
+// <hardware item code>, <compatible hardware item code>, <whether it has local competitors or not: Local_No or Local_Yes >
+//
+// e.g. "NOTEBOOK, COMPUTER" means that Notebook Computers are compatible with Desktop Computers. When an OS is developed for 
+//      Desktop Computers will be automatically be compatible with Notebook Computers.
+// 
+// e.g. "COMPUTER, NIL, Local_No" means that local competitors will not produce desktop computers. 
+// 
+// PC computer OS can be designed to run on the following hardware 
+
+[OS_PC]
+COMPUTER, NIL
+NOTEBOOK, COMPUTER 
+
+
+
+
+

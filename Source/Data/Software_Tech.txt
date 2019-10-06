@@ -1,0 +1,104 @@
+// Format: 
+// [<software code>] 
+// [<tech code]=<required tech level>, <weight>
+// <required tech level> means that the level of the tech must reach this level in order to create the software product.
+// <weight> indicates how important this tech is to the software product. The sum of <weight> for all techs for the software product must equal to 100.
+
+
+//--------------------------- SOFTWARE ---------------------------// 
+
+//-------------- OS --------------------//
+
+[OS_PC]
+OSPC_CORE=30,50
+OSPC_DISP=30,30
+OSPC_INPUT=30,20
+
+//----------- Office Software -----------//
+
+[SDB]
+SDB=20,70
+TOFFICE=10,30
+
+[SPRESENT]
+SPRESENT=20,70
+TOFFICE=10,30
+
+[SSPREAD]
+SSPREAD=20,70
+TOFFICE=10,30
+
+[SWORD]
+SWORD=20,70
+TOFFICE=10,30
+
+//------- Graphic Design Software ---------//
+
+[S3DMODEL]
+S3DMODEL=20,70
+3D_GFX=10,30
+
+[SANIMATE]
+SANIMATE=20,70
+3D_GFX=10,30
+
+[SCAD]
+SCAD=20,70
+3D_GFX=10,30
+
+[SILLUST]
+SILLUST=20,70
+2D_GFX=10,30
+
+[SPHOTO]
+SPHOTO=20,70
+2D_GFX=10,30
+
+//------- Computer Security ----------//
+
+[SAVIRUS]
+SAVIRUS=20,70
+TSECURITY=10,30
+
+[SINTSEC]
+SINTSEC=20,70
+TSECURITY=10,30
+
+[SENCRYPT]
+SENCRYPT=20,70
+TSECURITY=10,30
+
+//------- Utility Software ----------//
+
+[SBACKUP]
+SBACKUP=20,70
+TUTILITY=10,30
+
+[SFILECOM]
+SFILECOM=20,70
+TUTILITY=10,30
+
+[SDIAG]
+SDIAG=20,70
+TUTILITY=10,30
+
+//------- Audio Software ----------//
+
+[SMUSIC]
+SMUSIC=20,70
+TAUDIO=10,30
+
+[SSOUND]
+SSOUND=20,70
+TAUDIO=10,30
+
+//------- Video Software ----------//
+
+[SVIDEOE]
+SVIDEOE=20,70
+TVIDEO=10,30
+
+[SVIDEOP]
+SVIDEOP=20,70
+TVIDEO=10,30
+

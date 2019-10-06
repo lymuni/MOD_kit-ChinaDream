@@ -1,0 +1,1 @@
+..\..\libresxl *.PNG Building_Icons.RES 

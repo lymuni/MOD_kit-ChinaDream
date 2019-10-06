@@ -1,0 +1,1 @@
+..\..\libresxl *.SPR BUILDINGS.RES 

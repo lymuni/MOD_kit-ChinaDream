@@ -1,0 +1,9 @@
+[MOD]
+
+Title=CHINADREAM-19.10.12
+Description=绘1978-2078年中国画卷，展现中华民族伟大复兴。
+
+Author=835038800
+Version=19.10.12
+
+Unlimited Natural Resources=No
